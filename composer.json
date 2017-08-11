@@ -14,10 +14,12 @@
         "zendframework/zend-config-aggregator": "^1.0",
         "zendframework/zend-expressive": "^2.0.2",
         "zendframework/zend-expressive-helpers": "^4.0",
-        "zendframework/zend-stdlib": "^3.1",
-        "zendframework/zend-servicemanager": "^3.3",
         "zendframework/zend-expressive-zendrouter": "^2.0.1",
-        "zendframework/zend-expressive-zendviewrenderer": "^1.4"
+        "zendframework/zend-expressive-zendviewrenderer": "^1.4",
+        "zendframework/zend-form": "^2.10",
+        "zendframework/zend-i18n": "^2.7",
+        "zendframework/zend-servicemanager": "^3.3",
+        "zendframework/zend-stdlib": "^3.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.0.8 || ^5.7.15",
