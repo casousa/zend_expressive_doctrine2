@@ -17,6 +17,7 @@
         "zendframework/zend-config-aggregator": "^1.0",
         "zendframework/zend-expressive": "^2.0.2",
         "zendframework/zend-expressive-helpers": "^4.0",
+        "zendframework/zend-expressive-tooling": "^0.4.4",
         "zendframework/zend-expressive-zendrouter": "^2.0.1",
         "zendframework/zend-expressive-zendviewrenderer": "^1.4",
         "zendframework/zend-form": "^2.10",
@@ -28,7 +29,6 @@
         "phpunit/phpunit": "^6.0.8 || ^5.7.15",
         "squizlabs/php_codesniffer": "^2.8.1",
         "zfcampus/zf-development-mode": "^3.1",
-        "zendframework/zend-expressive-tooling": "^0.4.1",
         "filp/whoops": "^2.1.7"
     },
     "autoload": {
