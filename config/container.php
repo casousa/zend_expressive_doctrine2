@@ -21,7 +21,7 @@ $container->setService('config', $config);
 $translator = new Translator();
 $translator->addTranslationFile(
     'phpArray',
-    './vendor/zendframework/resources/languages/pt_BR/Zend_Validate.php',
+    './vendor/zendframework/zend-i18n-resources/languages/pt_BR/Zend_Validate.php',
     'default',    
     'pt_BR'
 );
