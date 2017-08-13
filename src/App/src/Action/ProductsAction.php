@@ -32,7 +32,6 @@ class ProductsAction implements ServerMiddlewareInterface
     public function process(ServerRequestInterface $request, DelegateInterface $delegate)
     {
         $data = $this->entityManager->getRepository(ProductsEntity::class)->findAll();
-        var_dump($data);
         
         $form = new ProductsForm();
         
@@ -58,7 +57,8 @@ class ProductsAction implements ServerMiddlewareInterface
         }
         
         return new HtmlResponse($this->template->render('app::products', [
-            'form'=> $form
+            'data' => $data,
+            'form' => $form
         ]));
     }
 }
