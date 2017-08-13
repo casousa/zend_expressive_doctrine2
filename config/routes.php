@@ -28,4 +28,4 @@
 
 $app->get('/', App\Action\HomePageAction::class, 'home');
 $app->get('/api/ping', App\Action\PingAction::class, 'api.ping');
-$app->get('/products', App\Action\ProductsAction::class, 'products');
+$app->route('/products', App\Action\ProductsAction::class,['GET','POST'], 'products');
